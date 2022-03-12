@@ -27,7 +27,7 @@ fn main() { //main function (the first function that will always be called in an
             Ordering::Greater => println!("Too big!"), //if guess is greater than the secret number
             Ordering::Equal => {
                 println!("bing bong u win lmao!"); //if guess is the secret number
-                break; //end if correct guess
+                break; //End if correct guess
             }
         }
     }
